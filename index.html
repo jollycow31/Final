@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body>
+    
+    <nav>
+        <input type="checkbox" class="checkbox" id="check">
+        <h1 class="nav_head">Jorlie.</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+            <a href="#contact"><button class="contact_btn">Contact Me</button></a>
+        </ul>
+
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+    </nav>
+
+    <section id="home" class="home">
+        <img src="./270332998_364061122190698_2225691391143953550_n.jpg" alt="" width="450px" height="400px">
+        <div class="description">
+            <h1>Hello I'm  <br><span>Jorlie Ann</span></h1>
+            <h2>I'm a  <span>Software Developer...</span></h2>
+            <p>Hi, I'm Jorlie Ann Perlada! I'm a passionate software developer who loves creating innovative solutions to real-world problems. When I'm not coding, you'll find me on the volleyball court, where I channel my teamwork and determination. Whether it's debugging or spiking, I bring my all to everything I do!</p>
+            <div class="font">
+                <i class="fa-brands fa-instagram"></i> 
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fas fa-phone"></i>
+            </div>
+            <button>Explore Now!</button>
+        </div>  
+    </section>
+
+    <section id="about" class="about">
+        <div class="about_section">
+            <h1>About <span>Me</span></h1>
+            <h2>Software <span>Developer!</span></h2>
+            <p>Hi, I’m Jorlie Ann Perlada, a passionate software developer with a focus on creating innovative and user-friendly mobile applications. I specialize in Android development, leveraging technologies like Java, Kotlin, and Android Studio to build dynamic, high-performance apps that enhance the user experience.
+
+                I’m deeply committed to continuous learning and improvement in my craft. I thrive on solving complex problems and bringing creative solutions to life, always aiming to produce high-quality, maintainable code. My projects range from fun, interactive games to utility apps, and I enjoy challenging myself to push the boundaries of what I can achieve in the mobile development space.
+                
+                In my free time, I enjoy exploring new programming languages, contributing to open-source projects, and staying updated on the latest trends in tech. I’m also a fan of gaming, reading, and experimenting with new technologies.</p>
+            <button class="about_btn">Read More....</button>
+        </div>
+        <div class="about_photo">
+            <img src="./270332998_364061122190698_2225691391143953550_n.jpg" alt="" width="420px" height="360px">
+        </div>
+    </section>
+
+    <section id="service">
+        <h1 class="service_section">My <span>Services</span></h1>
+        <div class="card">
+            <div class="service_card">
+                <i class="fas fa-computer"></i>
+                <h2>Graphic Design</h2>
+                <p>Graphic design is the art and practice of creating visual content to communicate messages or ideas to a target audience. It involves the use of typography, images, colors, shapes, and layouts to convey information effectively and aesthetically across various media, such as print, digital platforms, packaging, branding, and advertisements.
+
+                    Graphic design combines creativity, technical skills, and strategic thinking to produce visuals that not only capture attention but also fulfill a specific purpose, such as informing, persuading, or entertaining. It plays a key role in branding, marketing, and user experience.</p>
+                <a href="#">Read More...</a>
+            </div>
+            <div class="service_card">
+                <i class="fas fa-computer"></i>
+                <h2>Web Design</h2>
+                <p>Web design is the process of creating and designing the visual appearance, layout, and functionality of websites. It involves combining design principles, user experience (UX) strategies, and technical skills to create aesthetically pleasing and user-friendly websites that effectively communicate a brand or message.</p>
+                <a href="#">Read More...</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portfolio">
+        <h1 class="port_section">My <span>Work</span></h1>
+        <div class="project">
+            <div class="port_card">
+                <img src="./best-web-development-project-idea-1024x683.webp" alt="" width="350px" height="350px">
+                <div class="content">
+                    <h1>Web Development</h1>
+                </div>
+            </div>
+            <div class="port_card">
+                <img src="./poster.jpg" alt="" width="350px" height="350px">
+                <div class="content">
+                    <h1>Graphic Design</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="form">
+            <h1>Contact <span>Me</span></h1>
+            <form action="#home">
+                <input type="text" name="name" placeholder="Enter Your Name" required=""><br>
+                <input type="email" name="email" placeholder="Enter Your Email" required=""><br>
+                <input type="number" name="mno" placeholder="Enter Your Phone No." required=""><br>
+                <textarea name="msg" id="msg" rows="6" cols="20" placeholder="Enter Your Message"></textarea><br>
+                <button class="form_btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="footer">
+        <p><i class="fa-solid fa-copyright"></i> Jorlie Ann Perlada || All Rights Reserved...</p>
+    </div>
+</body>
+</html>
